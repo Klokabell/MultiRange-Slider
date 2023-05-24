@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import noUiSlider from 'nouislider';
 import 'nouislider/dist/nouislider.css';
-import wNumb from 'wnumb';
 
 function TestSlider({ enabled, initialValue }) {
     const sliderRef = useRef(null);
