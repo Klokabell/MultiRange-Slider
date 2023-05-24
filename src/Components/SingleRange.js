@@ -8,11 +8,6 @@ function SingleRangeSlider(props) {
   const sliderRef = useRef(null);
   const [sliderValues, setSliderValues] = useState(props.initialValue);
 
-  console.log(sliderValues)
-  const middleTrack = () => {
-
-    
-  }
 
   useEffect(() => {
     const slider = noUiSlider.create(sliderRef.current, {
