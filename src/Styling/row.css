@@ -1,6 +1,9 @@
 .disabled-menu {
     visibility: hidden;
   }
+.MuiInputBase-root {
+  background-color: #d2d9f5;
+}
 
 .MuiMenuItem-root {
     font-family: Roboto;

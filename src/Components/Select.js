@@ -6,11 +6,12 @@ import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";
 export default function Selection({ rval, onChange, activity, disabled }) {
 
     return(
-        <FormControl fullWidth className={disabled ? 'disabled-menu' : ''}>
-            <InputLabel>Activity {rval}</InputLabel>
+        <FormControl variant="filled" fullWidth className={disabled ? 'disabled-menu' : ''}>
+            <InputLabel id= "activity">Activity {rval}</InputLabel>
             <Select 
                 value={activity}
-                label="Activity"
+                labelId="activity"
+                label="Activity" 
                 onChange={onChange}
                 disabled={disabled}
             >

@@ -20,7 +20,7 @@ function MultiRangeSlider(props) {
       },
       margin: 1,
       step: 1,
-      pips: { mode: 'count', values: 4, density: 16 },
+      pips: { mode: 'steps', density: 1 },
       tooltips: [
         wNumb({ decimals: 0 }),
         wNumb({ decimals: 0 }),

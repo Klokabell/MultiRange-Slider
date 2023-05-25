@@ -1,5 +1,5 @@
 body {
-    background-color: #6277bf;
+    background-color: #ffffff;
     font-size: 16px;
 }
 
@@ -66,27 +66,23 @@ body {
   }
 
   .noUi-value  {
-    color: #d8a73c;
+    color: #d8a73ca2;
     font-size: 0.8rem;
     font-family: Arial Black;
     position: absolute;
     top: -10%;
   }
-
-  .noUi-marker {
-    background-color: #7e79795d;
-    position: absolute;
-    top: -2%;
+  .noUi-value:not([data-value="6"]):not([data-value="24"]) {
+    display: none;
   }
 
+  .noUi-marker {
+    background-color: #7e797900;
+  }
 
   /*                                     <--------------DISABLED SLIDER-------------->                   */
 .disabled .noUi-base {
-    background: #6277bf;
-    border: none;
-    border-radius: 3px;
-    box-shadow: none;
-    height: 10px;
+    background: #ffffff;
 }
 
 #slider-round.disabled .noUi-connect {
@@ -95,26 +91,20 @@ body {
 }
 
 #slider-round.disabled .noUi-handle {
-
     background: #c7973f;
     border: 1px ;
 }
 
 
   .disabled .noUi-tooltip {
-    background-color: #ada5b956;
-    color: #845EC2;
-    border-radius: 10px;
+    background-color: #b995f5;
+    color: #ebecc8;
     font-weight: bold;
-    border: 1px solid #ada5b956;   
+    border: 1px solid #FFFF00;   
 }
 
 .disabled .noUi-value  {
-    color: #a76e6f;
-    font-weight: bold;
-    font-family: Arial Black;
-    position: absolute;
-    top: -14%;
+    display: none;
   }
 
 .disabled .noUi-tooltip:before {
